@@ -1,3 +1,3 @@
-from game_logic import *
+import src.game_logic as game_logic
 
-show_menu()
+game_logic.show_menu()
